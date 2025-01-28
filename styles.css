@@ -6,3 +6,9 @@ header {
 footer {
     background-color: darkgoldenrod;
 }
+
+.header_image {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
