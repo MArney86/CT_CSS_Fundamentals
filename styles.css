@@ -1,13 +1,21 @@
 header {
     background-color: burlywood;
-    width: 100%
+    width: 100%;
+    color:maroon;
 }
 
 footer {
-    background-color: darkgoldenrod;
+    background-color:maroon;
+    color:aqua;
 }
 
-.header_image {
+a:hover {
+    background-color: blueviolet;
+    color: black;
+    font-size: 18px;
+}
+
+.main_image {
     display: block;
     width: 75%;
     margin: auto;
