@@ -1,3 +1,4 @@
+/* Assignment 1 */
 header {
     background-color: burlywood;
     width: 100%;
@@ -15,6 +16,7 @@ a:hover {
     font-size: 18px;
 }
 
+/* Assignment 2 */
 .button {
     border: none;
     background-color: darkblue;
@@ -35,6 +37,7 @@ a:hover {
     border: 2px solid #00008b;
 }
 
+/* Assignment 1 */
 .main_image {
     display: block;
     width: 75%;
