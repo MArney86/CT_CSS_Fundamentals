@@ -10,14 +10,23 @@ footer {
     color:aqua;
 }
 
-a:hover {
+a.recipe_link:hover {
     background-color: blueviolet;
     color: black;
     font-size: 18px;
 }
 
 /* Assignment 2 */
-.button {
+a.submission {
+    background-color: darkblue;
+    color: white;
+}
+a.submission:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+button.submission {
     border: none;
     background-color: darkblue;
     color: white;
@@ -31,13 +40,13 @@ a:hover {
       cursor: pointer;
 }
 
-.button:hover {
+button.submission:hover {
     background-color: white;
-    color: #00008b;
+    color: darkblue;
     border: 2px solid #00008b;
 }
 
-/* Assignment 1 */
+/* Assignment  */
 .main_image {
     display: block;
     width: 75%;
