@@ -9,8 +9,27 @@
         <meta name="keywords" content="Recipe, New, Submission">
         <meta name="author" content="Matthew Arney">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Delius+Swash+Caps|Peralta">
+        <style>
+            .label {
+                font-family: Peralta;
+            }
+        </style>
     </head>
-    <body>
-        temp body
+    <body style="background-color:black;color:chartreuse;font-family: Delius+Swash+Caps;">
+        <header>
+            <h1> New Recipe Submission Form</H1>
+        </header>
+        <h1 style="font-family: Open+Sans;"> Thank you for choosing to submit a new recipe to our site!</h1>
+        Your submissions help us archive and share many wonderful new recipes with the whole world!<br><br>
+        <Form action="http://127.0.0.1:5000">
+            <label for="nr_name" class="label">New Recipe Name:</label><br>
+            <input type="text" id="nr_name" name="nr_name" required placeholder="Name of your new recipe" aria-label="New recipe name text input" aria-placeholder="Name of your new recipe"><br><br>
+            <lable for="nr_ingredients" class="label">New Recipe Ingredients:</lable><br>
+            <textarea id="nr_ingredients" name="nr_ingredients" rows="8" cols="75" placeholder="Please input the ingredients of your new recipe, one per line." aria-label="New recipe ingredients input textarea" aria-placeholder="Please input the ingredients of your new recipe, one per line."></textarea><br><br>
+            <lable for="nr_steps" class="label">New Recipe Instructions</lable><br>
+            <textarea id="nr_steps" name="nr_steps" rows="8" cols="75" placeholder="Please input the steps of your new recipe, one per line." aria-label="New recipe steps input textarea" aria-placeholder="Please input the steps of your new recipe, one per line."></textarea><br><br>
+            
+        </Form>
     </body>
 </html>

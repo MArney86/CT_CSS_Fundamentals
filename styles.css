@@ -16,17 +16,25 @@ a.recipe_link:hover {
     font-size: 18px;
 }
 
+.main_image {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
 /* Assignment 2 */
+
 a.submission {
     background-color: darkblue;
     color: white;
 }
+
 a.submission:hover {
     background-color: white;
     color: darkblue;
 }
 
-button.submission {
+button#submission {
     border: none;
     background-color: darkblue;
     color: white;
@@ -40,15 +48,20 @@ button.submission {
       cursor: pointer;
 }
 
-button.submission:hover {
+button#submission:hover {
     background-color: white;
     color: darkblue;
     border: 2px solid #00008b;
 }
 
-/* Assignment  */
-.main_image {
-    display: block;
-    width: 75%;
-    margin: auto;
+.label {
+    color:blueviolet ;
+}
+
+#nr_steps {
+    color:indigo;
+}
+
+#nr_ingredients {
+    color:purple;
 }
