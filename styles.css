@@ -54,6 +54,32 @@ button#submission:hover {
     border: 2px solid #00008b;
 }
 
+button#submit {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px darkmagenta;
+}
+
+button#submit:hover {
+    background-color: lavenderblush;
+    color: purple;
+}
+
+button#submit:active {
+  background-color: mediumorchid;
+  box-shadow: 0 5px mediumvioletred;
+  transform: translateY(4px);
+}
+
 .label {
     color:blueviolet ;
 }
